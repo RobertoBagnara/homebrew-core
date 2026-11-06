@@ -1,8 +1,8 @@
 class Networkit < Formula
   desc "Performance toolkit for large-scale network analysis"
   homepage "https://networkit.github.io"
-  url "https://github.com/networkit/networkit/archive/refs/tags/11.2.2.tar.gz"
-  sha256 "04fffd0f801a91524a6dc2643f7d262e79600b086e4688bcb1b7988b2b5448dd"
+  url "https://github.com/networkit/networkit/archive/refs/tags/11.3.tar.gz"
+  sha256 "5aa5813110438270e9bb83c73f597943c4c5bedd5a9634fdaf5f2052a0053ba4"
   license "MIT"
 
   bottle do
