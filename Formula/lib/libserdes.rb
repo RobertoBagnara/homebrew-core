@@ -18,8 +18,11 @@ class Libserdes < Formula
 
   depends_on "avro-c"
   depends_on "jansson"
+  depends_on "librdkafka"
 
   uses_from_macos "curl"
+
+  deny_network_access!
 
   def install
     system "./configure", "--prefix=#{prefix}"
